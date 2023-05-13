@@ -1,0 +1,8 @@
+.carousel-inner img{
+   height: 40rem;
+}
+
+.carousel-caption{
+    margin-bottom: 5rem;
+    font-size: 4rem;
+}
