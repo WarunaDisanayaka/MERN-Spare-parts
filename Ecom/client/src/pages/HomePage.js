@@ -5,7 +5,7 @@ import { Prices } from "../components/Prices";
 import { useCart } from "../context/cart";
 import axios from "axios";
 import toast from "react-hot-toast";
-import Layout from "./../components/Layout/Layout";
+import Layout from "../components/Layout/Layout";
 import { AiOutlineReload } from "react-icons/ai";
 import "../styles/Homepage.css";
 import Banner from "../components/Banner";
@@ -248,9 +248,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div className="App">
-        <ChatBot steps={steps} />
-      </div>
+    
     </Layout>
   );
 };

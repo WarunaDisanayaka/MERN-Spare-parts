@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "./../components/Layout/Layout";
+import Layout from "../components/Layout/Layout";
 import { GoogleMap, Marker } from "@googlemaps/react-wrapper";
 import { GOOGLE_MAPS_API_KEY } from "./config"; // Import the API key constant
 
