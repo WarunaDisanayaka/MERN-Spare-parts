@@ -1,9 +1,11 @@
 import React from "react";
 import Layout from "./../components/Layout/Layout";
+import { GoogleMap, Marker } from "@googlemaps/react-wrapper";
+import { GOOGLE_MAPS_API_KEY } from "./config"; // Import the API key constant
 
 const About = () => {
   return (
-    <Layout title={"About us - Ecommer app"}>
+    <Layout title={"About us - Ecommerce app"}>
       <div className="row contactus ">
         <div className="col-md-6 ">
           <img
@@ -21,6 +23,7 @@ const About = () => {
             accusantium atque, excepturi sapiente amet! Tenetur ducimus aut
             commodi illum quidem neque tempora nam.
           </p>
+
         </div>
       </div>
     </Layout>
